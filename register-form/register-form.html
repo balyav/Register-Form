@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML form example</title>
+</head>
+<body>
+    <form action="thankyou.html">
+        <fieldset>
+        <legend>Personal data</legend>
+       Your Name <input type="text" required/><br/>
+       Your email <input type="text" required/> <br/>
+       Phone <input type="text" required/> <br/>
+    </fieldset>
+       <br/>
+       <fieldset label="Training data">
+       Choose course:<br/>
+      <select>
+        <option>HTML basic training</option>
+        <option>CSS basic training</option>
+      </select>
+      <br/>
+      <legend>Training data</legend>
+     Choose hours:<br/>
+      <select>
+        <optgroup label="Morning">
+        <option>09:00</option>
+        <option>10:00</option>
+        </optgroup>
+        <optgroup label="Evening">
+        <option>19:00</option>
+        <option>20:00</option>
+        </optgroup>
+      </select>
+    </fieldset>
+      <br/>
+    <input type="checkbox" required/> I accept the <a href="terms.html" target="_blank"> terms</a> and condition
+      <hr/>
+      <button>APPLY</button>
+    </form>
+    
+</body>
+</html>
